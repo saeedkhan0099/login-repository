@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="login-container">
+       
+         <img src="./daraz-logo.png" alt="" width="160px">
+          <h2>Login to Daraz</h2>
+        <!-- <form action="login-action.php" > -->
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Please Enter Your Email" required> @gmail.com
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input  type="password" id="password" name="password" placeholder="Please Enter your password" required>
+                <!-- <img  src="./one.svg" alt="" width="40px"> -->
+                 <button onclick="myFunction()" id="icon" >show</button>
+                 <!-- <input class="check" type="checkbox" onclick="myFunction()">Show -->
+
+                
+            </div>
+            <!-- <div class="input-group">
+                <input type="checkbox" id="remember-me" name="remember-me">
+                <label for="remember-me">Remember Me</label>
+            </div> -->
+            <button onclick="onSubmit()" type="submit" class="login-button">Login</button>
+        <!-- </form> -->
+        <div class="extra-links">
+            <a href="#">Forgot your password?</a>
+            <a href="#">Don't have an account? Sign up</a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

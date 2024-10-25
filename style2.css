@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(247, 85, 4);
+}
+.navbar-nav{
+    margin-left: 500px;
+}
+.card{
+    
+    width: 250px;
+}
+.col-md-4{
+    padding-top:90px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+.meter {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .liter {
+      width: 10%;
+  }
+  .image{
+      width: 50px;
+      mix-blend-mode: multiply;
+  }
+  .move{
+      width: 60%;
+  }
+  
